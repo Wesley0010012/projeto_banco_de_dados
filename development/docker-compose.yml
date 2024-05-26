@@ -1,0 +1,15 @@
+version: '2'
+services:
+  oracle_database:
+    container_name: "project_database"
+    image: 'oracle/database:19.3.0-ee'
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    volumes:
+      - "./data/datasource:/opt/oracle/oradata"
+    networks:
+      - "database_network"
+networks:
+  database_network:
+    driver: bridge
