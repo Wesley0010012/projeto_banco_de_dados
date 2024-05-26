@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C13E3EE-F301-38DD-E6F5-00093621F5D8" name="PAGAMENTOS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-25 22:37:17 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pgt id" id="076D6F63-5A5B-A658-8AAD-1946F5DFC613">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-25 22:37:22 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pgt valor" id="271A074F-3632-92A6-5D98-CB00B4053BEF">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-25 22:37:22 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pgt mnl id" id="D58C9295-6D85-65C7-C9F5-405AC0A0ED8E">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-25 22:38:50 UTC</createdTime>
+<generatorID>8FA3334B-C2D4-6E2A-FED6-5901348D9594</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<referedAttribute>AE3CF514-A1A0-FB90-6A5C-2C3AA88E9E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C9536B9-BC60-EB8E-2A7D-0CE4DCFCC14D" name="PGT_PK">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-25 22:37:45 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>076D6F63-5A5B-A658-8AAD-1946F5DFC613</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

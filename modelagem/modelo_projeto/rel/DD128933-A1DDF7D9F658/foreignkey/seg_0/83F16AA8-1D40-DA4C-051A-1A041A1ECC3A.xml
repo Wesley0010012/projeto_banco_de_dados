@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83F16AA8-1D40-DA4C-051A-1A041A1ECC3A" containerWithKeyObject="BDC6D6E8-68D2-230E-2FC0-8C32A48EB90D" localFKIndex="71034075-E168-DF92-72EC-2B54215722E8" name="FK_NTF_CES">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>D2C694F6-A962-E3F6-AD14-C319AFE6B22B</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<referredTableLongName>CUSTOS_ESTACIONAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C95564A6-6EBD-CFF2-70F5-29D06AF51BCD</referredTableID>
+<keyObject>14873526-883D-12D0-68D2-66784BEB4661</keyObject>
+<referredKeyID>14873526-883D-12D0-68D2-66784BEB4661</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ces_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E75D7D6-B98A-5BE5-E883-4026DCE78014" containerWithKeyObject="BA87DF7C-4091-58A0-83D5-917906A0D548" localFKIndex="4F5B77DE-0E52-5926-3C48-C15BE4E0D806" name="FK_VCL_MNL">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>EA84ADE8-794B-A65D-39B1-DD2CDA52C300</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<referredTableLongName>MENSALISTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91B201C2-A2C0-1E7A-EAF9-E3EF26CE3118</referredTableID>
+<keyObject>E86F0FBD-9205-83C0-35C1-EA6453C37098</keyObject>
+<referredKeyID>E86F0FBD-9205-83C0-35C1-EA6453C37098</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mnl_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

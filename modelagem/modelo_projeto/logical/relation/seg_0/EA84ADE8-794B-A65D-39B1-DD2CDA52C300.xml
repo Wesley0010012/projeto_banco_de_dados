@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK VCL MNL" directorySegmentName="seg_0" id="EA84ADE8-794B-A65D-39B1-DD2CDA52C300">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:53:55 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<sourcePk>5DCE88E9-F988-3E21-6313-B90478BC31DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90434D7A-7BD0-38D8-3E32-3BF71CCF5D7E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7229CAA-C87E-63C4-5B28-06AA648FE148</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

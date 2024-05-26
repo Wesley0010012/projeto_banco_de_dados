@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA87DF7C-4091-58A0-83D5-917906A0D548" name="VEICULOS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>C7229CAA-C87E-63C4-5B28-06AA648FE148</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vcl_id" id="1B634830-CF40-3D3D-924D-A1504D6D38BF">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
+<generatorID>6A5565B9-BBC0-A8DF-A7B9-00DA25602038</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vcl_placa" id="7826968D-C1E0-07D4-22F1-2D63E063061C">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[PLACA DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
+<generatorID>994D805A-F8F8-296E-7B09-79023B260258</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vcl_tpv_id" id="EA710026-5B60-8062-77CF-4C6480D9548B">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADO PELOS VEICULOS]]></commentInRDBMS>
+<generatorID>1D3A05D1-C4E3-7C73-BCDB-945EF4D7F316</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75ECDC18-73FA-0A88-A882-9A42A6CB3207" referredColumn="52ED6196-EB6D-A548-43F3-64B4F0E527E4"/>
+</associations>
+</Column>
+<Column name="vcl_mnl_id" id="C732B40A-CD7A-A53D-B8E2-6C55B4B9325D">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CLIENTE MENSALISTA DONO DO VEICULO]]></commentInRDBMS>
+<generatorID>7680B99F-7FA9-EF06-DBBD-7BE00AB6411B</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E75D7D6-B98A-5BE5-E883-4026DCE78014" referredColumn="DC91DDAA-DEA1-F589-A956-63A48573BD3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A0DFBAE-5A09-EF1A-7745-57564B4B0CFC" name="PK_VCL">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>247CFB74-2E18-8C94-DDA7-4352B411FE0B</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B634830-CF40-3D3D-924D-A1504D6D38BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16CAE056-3C9B-64EA-F266-B90548ABD96D" name="FK_VCL_TPV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>EADA5367-F023-400B-218D-652A9FC91915</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA710026-5B60-8062-77CF-4C6480D9548B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F5B77DE-0E52-5926-3C48-C15BE4E0D806" name="FK_VCL_MNL">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>EA84ADE8-794B-A65D-39B1-DD2CDA52C300</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C732B40A-CD7A-A53D-B8E2-6C55B4B9325D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

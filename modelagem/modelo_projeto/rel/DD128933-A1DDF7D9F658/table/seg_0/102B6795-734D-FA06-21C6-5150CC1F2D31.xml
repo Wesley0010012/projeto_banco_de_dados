@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="102B6795-734D-FA06-21C6-5150CC1F2D31" name="CONVENIADOS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS ESTABELECIMENTOS CONVENIADOS AO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>CAEFB6B7-C166-93E2-3E0A-00C223CB4A24</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cnv_id" id="115CCD99-6F34-CDF4-144C-CFB3C9A7932A">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
+<generatorID>A8201EB7-2079-8C8D-1E39-8F3F3FBF35DC</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CONVENIADOS_CONVENIADOS_ID</notNullConstraintName>
+</Column>
+<Column name="cnv_razao_social" id="670823A9-3286-7258-FAEC-54825EBC5605">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RAZAO SOCIAL DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
+<generatorID>046C52B2-5226-0A60-D817-2E533171B3DD</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CONVENIADOS_cnv_razao_social</notNullConstraintName>
+</Column>
+<Column name="cnv_cnpj" id="D280C098-386E-78B8-0CF7-5130279E0BED">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CNPJ DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
+<generatorID>FFAB950E-1F2C-2824-EB25-193A5DFBE656</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CONVENIADOS_cnv_cnpj</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EDAC47A-0881-015B-65BD-DEABEDD73EA5" name="PK_CNV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>FAEC93F0-8D45-17E7-134B-28032A69E582</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="115CCD99-6F34-CDF4-144C-CFB3C9A7932A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

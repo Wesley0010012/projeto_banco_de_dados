@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDC6D6E8-68D2-230E-2FC0-8C32A48EB90D" name="NOTAS_FISCAIS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR AS NOTAS FISCAIS DE ESTACIONAMENTO CONVENIADOS ENTREGUES POR CLIENTES GERAIS DO ESTACIONAMENTO PARA AMORTIZAR O PAGAMENTO DO CUSTO DE ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>73800644-5BE2-DE3B-021E-E1496FEF5FE3</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ntf_id" id="8B105120-C225-3C8B-5A9B-A7B324C90E8F">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DAS NOTAS FISCAIS]]></commentInRDBMS>
+<generatorID>A4EE5811-E9F9-499E-53D4-979AB369D0F3</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ntf_nfe" id="6ADA3B01-EB60-66F0-79D3-F2CB4639AA26">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR DA NOTA FISCAL GERADA NA IMPRESSAO NO ESTABELECIMENTO]]></commentInRDBMS>
+<generatorID>F34EF542-6A80-9A79-8238-549901115341</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>44</dataTypeSize>
+<ownDataTypeParameters>44,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nft_desconto_total" id="DF30124B-6A34-C41B-CD74-74C1E966C104">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DE AMORTIZACAO PROFERIDA PELA NOTA FISCAL]]></commentInRDBMS>
+<generatorID>DE5399ED-8A14-E712-3705-924405162037</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ntf_ces_id" id="0E2CDD93-0CF6-3BCB-2930-669A9D410E24">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CUSTO DE ESTACIONAMENTO DO QUAL UTILIZOU DA AMORTIZACAO]]></commentInRDBMS>
+<generatorID>2D0F0147-4E7A-11A9-0FBC-DABF2FF64FB2</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83F16AA8-1D40-DA4C-051A-1A041A1ECC3A" referredColumn="3FB63267-5711-7285-422F-9A16EF2D7BC3"/>
+</associations>
+</Column>
+<Column name="ntf_cnv_id" id="6BD130EE-D188-516D-2E5E-BAD85A5FCA7D">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO DO ESTABELECIMENTO CONVENIADO QUE IMPRIMIU A NOTA FISCAL]]></commentInRDBMS>
+<generatorID>12C370D4-4664-6F5B-10C1-01AB71BB1A5A</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B69711F-5790-EC63-BF7A-3BC07CF19571" referredColumn="115CCD99-6F34-CDF4-144C-CFB3C9A7932A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="628A02C7-19B3-0F82-30F8-89521D81F0CF" name="PK_NTF">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>4997109C-D345-C081-57D3-9B7B9C95E476</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B105120-C225-3C8B-5A9B-A7B324C90E8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71034075-E168-DF92-72EC-2B54215722E8" name="FK_NTF_CES">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>D2C694F6-A962-E3F6-AD14-C319AFE6B22B</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E2CDD93-0CF6-3BCB-2930-669A9D410E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D29E93-536D-45F8-F12E-C18DA7CB1B82" name="FK_NTF_CNV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>C4997F67-ED97-B371-CC29-8C7E85E5E238</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD130EE-D188-516D-2E5E-BAD85A5FCA7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

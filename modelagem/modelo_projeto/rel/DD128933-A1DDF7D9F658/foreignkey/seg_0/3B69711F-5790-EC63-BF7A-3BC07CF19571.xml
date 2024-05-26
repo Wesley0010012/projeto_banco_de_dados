@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B69711F-5790-EC63-BF7A-3BC07CF19571" containerWithKeyObject="BDC6D6E8-68D2-230E-2FC0-8C32A48EB90D" localFKIndex="13D29E93-536D-45F8-F12E-C18DA7CB1B82" name="FK_NTF_CNV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>C4997F67-ED97-B371-CC29-8C7E85E5E238</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<referredTableLongName>CONVENIADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>102B6795-734D-FA06-21C6-5150CC1F2D31</referredTableID>
+<keyObject>8EDAC47A-0881-015B-65BD-DEABEDD73EA5</keyObject>
+<referredKeyID>8EDAC47A-0881-015B-65BD-DEABEDD73EA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cnv_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

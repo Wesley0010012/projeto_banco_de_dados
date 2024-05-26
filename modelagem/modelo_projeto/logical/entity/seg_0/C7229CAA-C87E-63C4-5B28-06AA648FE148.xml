@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7229CAA-C87E-63C4-5B28-06AA648FE148" name="VEICULOS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:40:08 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vcl id" id="6A5565B9-BBC0-A8DF-A7B9-00DA25602038">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:50:10 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vcl placa" id="994D805A-F8F8-296E-7B09-79023B260258">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:50:10 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vcl tpv id" id="1D3A05D1-C4E3-7C73-BCDB-945EF4D7F316">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:49:42 UTC</createdTime>
+<generatorID>EADA5367-F023-400B-218D-652A9FC91915</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<referedAttribute>176B0601-7B2A-6A15-AC97-B2747C89EB26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vcl mnl id" id="7680B99F-7FA9-EF06-DBBD-7BE00AB6411B">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:53:55 UTC</createdTime>
+<generatorID>EA84ADE8-794B-A65D-39B1-DD2CDA52C300</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<referedAttribute>AE3CF514-A1A0-FB90-6A5C-2C3AA88E9E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="247CFB74-2E18-8C94-DDA7-4352B411FE0B" name="PK_VCL">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:50:39 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A5565B9-BBC0-A8DF-A7B9-00DA25602038</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

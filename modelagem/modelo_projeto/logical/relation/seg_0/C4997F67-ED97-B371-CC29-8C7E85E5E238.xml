@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK NTF CNV" directorySegmentName="seg_0" id="C4997F67-ED97-B371-CC29-8C7E85E5E238">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:31:23 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<sourcePk>FAEC93F0-8D45-17E7-134B-28032A69E582</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CAEFB6B7-C166-93E2-3E0A-00C223CB4A24</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73800644-5BE2-DE3B-021E-E1496FEF5FE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

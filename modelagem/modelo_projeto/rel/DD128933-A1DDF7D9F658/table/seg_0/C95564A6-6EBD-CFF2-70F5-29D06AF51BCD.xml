@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C95564A6-6EBD-CFF2-70F5-29D06AF51BCD" name="CUSTOS_ESTACIONAMENTO">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS CUSTOS GERAIS DOS VEICULOS GERAIS ALOCADOS NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>744E3BF4-1DF5-6EE1-AC40-9177E2266331</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ces_id" id="3FB63267-5711-7285-422F-9A16EF2D7BC3">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO CUSTO DE ALOCACAO DE UM VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>3EA9E6BD-1C6D-B845-28A2-F55E5B9B0F95</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ces_placa" id="F4F62356-CBC6-4839-29CE-6CB03FA43C7B">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[PLACA DO VEICULO QUE FEZ A ALOCACAO]]></commentInRDBMS>
+<generatorID>F5CCBA7A-3AE8-04C6-01EF-CDD1B6542871</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ces_data_hora_entrada" id="78E47806-48AB-31F8-124E-265E941FFDEA">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA E HORA DE ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>9A8A9151-2440-8A27-0D35-C4AA0608B6AE</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ces_data_hora_saida" id="33A21B92-856E-9C5C-1B9B-3415CC609757">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA E HORA DO FIM DA  ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>EB10F1DF-A18F-FFA2-7234-50F1B6E8BEAF</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ces_preco" id="D603ED87-065A-C5FA-D10A-C1FF63F8747F">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTO TOTAL DO PERIODO DE ALOCACAO DO VEICULO]]></commentInRDBMS>
+<generatorID>76EAC471-BCCF-72EF-6B11-9D5538DCF920</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ces_tpv_id" id="712F4364-86B1-7DC2-BE45-0D403E579C9E">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADA PELO VEICULO]]></commentInRDBMS>
+<generatorID>BF8B5E18-145C-30E3-79EA-A71DCFDD13F0</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA86E0B1-837A-614E-1192-266CBA11EC6C" referredColumn="52ED6196-EB6D-A548-43F3-64B4F0E527E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14873526-883D-12D0-68D2-66784BEB4661" name="PK_CES">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>08D4F395-8205-C290-65E7-FF537B970ED8</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB63267-5711-7285-422F-9A16EF2D7BC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B5AE17-E366-F838-4226-223FFC68657D" name="FK_CES_TPV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>21418691-77EF-4F15-8C0D-8D13063AA7B6</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="712F4364-86B1-7DC2-BE45-0D403E579C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

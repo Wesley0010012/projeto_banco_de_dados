@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="744E3BF4-1DF5-6EE1-AC40-9177E2266331" name="CUSTOS ESTACIONAMENTO">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:23:27 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ces id" id="3EA9E6BD-1C6D-B845-28A2-F55E5B9B0F95">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:23:44 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ces placa" id="F5CCBA7A-3AE8-04C6-01EF-CDD1B6542871">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:23:44 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ces data hora entrada" id="9A8A9151-2440-8A27-0D35-C4AA0608B6AE">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:25:15 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ces data hora saida" id="EB10F1DF-A18F-FFA2-7234-50F1B6E8BEAF">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:25:59 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ces preco" id="76EAC471-BCCF-72EF-6B11-9D5538DCF920">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:26:36 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ces tpv id" id="BF8B5E18-145C-30E3-79EA-A71DCFDD13F0">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:36:42 UTC</createdTime>
+<generatorID>21418691-77EF-4F15-8C0D-8D13063AA7B6</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<referedAttribute>176B0601-7B2A-6A15-AC97-B2747C89EB26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08D4F395-8205-C290-65E7-FF537B970ED8" name="PK_CES">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:24:24 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EA9E6BD-1C6D-B845-28A2-F55E5B9B0F95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

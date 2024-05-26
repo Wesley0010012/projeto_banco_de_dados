@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91B201C2-A2C0-1E7A-EAF9-E3EF26CE3118" name="MENSALISTAS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS CLIENTES MENSALISTAS UTILIZADORES DO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>90434D7A-7BD0-38D8-3E32-3BF71CCF5D7E</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mnl_id" id="DC91DDAA-DEA1-F589-A956-63A48573BD3B">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>AE3CF514-A1A0-FB90-6A5C-2C3AA88E9E05</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mnl_nome" id="8EDF6CAD-0199-A80B-E46D-BFEF8C59CE18">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DOS CLIENTE MENSALISTA DO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>A9BAC06B-BC71-FCE4-4E64-D1BF22011873</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mnl_cod_unico" id="26162F3E-8720-9520-9C16-A814680EE94F">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO UTILIZADO PARA ACESSO EXCLUSIVO AS VAGAS DO CLIENTE MENSALISTA]]></commentInRDBMS>
+<generatorID>2D961B57-6560-A271-97B0-3BB660D0E848</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mnl_data_inclusao" id="109F0A50-0FEA-7AC4-EDE6-B6E915506B20">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE INCLUSAO DE CADASTRO MENSAL DO CLIENTE NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>3A1839C0-0ACD-6C2F-3F96-E80651F82048</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mnl_ativo" id="D072B31B-1A15-7132-5004-B32693757954">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE ATIVIDADE DE PAGAMENTO MENSAL DO CLIENTE]]></commentInRDBMS>
+<generatorID>6CB59BC1-99AD-90D2-13A0-35DBCBE354EF</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86F0FBD-9205-83C0-35C1-EA6453C37098" name="PK_MNL">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>5DCE88E9-F988-3E21-6313-B90478BC31DF</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC91DDAA-DEA1-F589-A956-63A48573BD3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

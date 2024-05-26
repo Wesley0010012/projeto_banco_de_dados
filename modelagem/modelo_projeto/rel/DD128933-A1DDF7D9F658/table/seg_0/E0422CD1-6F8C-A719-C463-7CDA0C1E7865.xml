@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0422CD1-6F8C-A719-C463-7CDA0C1E7865" name="TIPOS_VAGAS">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS TIPOS DE VAGAS DISPONIVEIS NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>BF3CD50C-D0AF-0216-3F12-9AC2D0298354</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tpv_id" id="52ED6196-EB6D-A548-43F3-64B4F0E527E4">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO TIPO DE VAGA POSSIVEL PARA ALOCACAO NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>176B0601-7B2A-6A15-AC97-B2747C89EB26</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tpv_categoria" id="5A401460-27B5-9C91-EB0F-FA1923FBF063">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CATEGORIA REPRESENTATIVA DO TIPO DE VAGA EXISTENTE NO ESTACIONAMENTO]]></commentInRDBMS>
+<generatorID>647E014E-19EE-425C-5002-324209836D35</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tpv_preco" id="04EDF320-FF2F-4D47-FF16-29D1C05BDD68">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTO FIXO DE ALOCACAO DO TIPO DA VAGA]]></commentInRDBMS>
+<generatorID>64D59CA7-D7F1-90D6-4CEB-67164B8B14AD</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9206DA76-3377-C24C-521D-F6FE020594E8" name="TPV_PK">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>773C8501-9505-4607-07CC-245812ABB56E</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52ED6196-EB6D-A548-43F3-64B4F0E527E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

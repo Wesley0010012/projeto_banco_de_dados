@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75ECDC18-73FA-0A88-A882-9A42A6CB3207" containerWithKeyObject="BA87DF7C-4091-58A0-83D5-917906A0D548" localFKIndex="16CAE056-3C9B-64EA-F266-B90548ABD96D" name="FK_VCL_TPV">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 02:05:09 UTC</createdTime>
+<generatorID>EADA5367-F023-400B-218D-652A9FC91915</generatorID>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<referredTableLongName>TIPOS_VAGAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0422CD1-6F8C-A719-C463-7CDA0C1E7865</referredTableID>
+<keyObject>9206DA76-3377-C24C-521D-F6FE020594E8</keyObject>
+<referredKeyID>9206DA76-3377-C24C-521D-F6FE020594E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tpv_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK NTF CES" directorySegmentName="seg_0" id="D2C694F6-A962-E3F6-AD14-C319AFE6B22B">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:27:25 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<sourcePk>08D4F395-8205-C290-65E7-FF537B970ED8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>744E3BF4-1DF5-6EE1-AC40-9177E2266331</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>73800644-5BE2-DE3B-021E-E1496FEF5FE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

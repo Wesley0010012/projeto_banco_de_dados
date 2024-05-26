@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK VCL TPV" directorySegmentName="seg_0" id="EADA5367-F023-400B-218D-652A9FC91915">
+<createdBy>henry</createdBy>
+<createdTime>2024-05-19 01:49:42 UTC</createdTime>
+<ownerDesignName>modelo_projeto</ownerDesignName>
+<engineerTo>
+<item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
+</engineerTo>
+<sourcePk>773C8501-9505-4607-07CC-245812ABB56E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF3CD50C-D0AF-0216-3F12-9AC2D0298354</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7229CAA-C87E-63C4-5B28-06AA648FE148</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
