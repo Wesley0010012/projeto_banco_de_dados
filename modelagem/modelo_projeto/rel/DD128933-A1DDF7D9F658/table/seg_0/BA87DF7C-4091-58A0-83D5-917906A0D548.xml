@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="vcl_id" id="1B634830-CF40-3D3D-924D-A1504D6D38BF">
+<Column name="VCL_ID" id="1B634830-CF40-3D3D-924D-A1504D6D38BF">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vcl_placa" id="7826968D-C1E0-07D4-22F1-2D63E063061C">
+<Column name="VCL_PLACA" id="7826968D-C1E0-07D4-22F1-2D63E063061C">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[PLACA DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vcl_tpv_id" id="EA710026-5B60-8062-77CF-4C6480D9548B">
+<Column name="VCL_TPV_ID" id="EA710026-5B60-8062-77CF-4C6480D9548B">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADO PELOS VEICULOS]]></commentInRDBMS>
@@ -45,14 +45,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="75ECDC18-73FA-0A88-A882-9A42A6CB3207" referredColumn="52ED6196-EB6D-A548-43F3-64B4F0E527E4"/>
 </associations>
 </Column>
-<Column name="vcl_mnl_id" id="C732B40A-CD7A-A53D-B8E2-6C55B4B9325D">
+<Column name="VCL_MNL_ID" id="C732B40A-CD7A-A53D-B8E2-6C55B4B9325D">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CLIENTE MENSALISTA DONO DO VEICULO]]></commentInRDBMS>
@@ -62,7 +62,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

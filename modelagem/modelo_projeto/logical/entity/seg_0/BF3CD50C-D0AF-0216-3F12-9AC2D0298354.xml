@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF3CD50C-D0AF-0216-3F12-9AC2D0298354" name="TIPOS VAGAS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:34:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS TIPOS DE VAGAS DISPONIVEIS NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tpv id" id="176B0601-7B2A-6A15-AC97-B2747C89EB26">
+<Attribute name="TPV ID" id="176B0601-7B2A-6A15-AC97-B2747C89EB26">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:34:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO TIPO DE VAGA POSSIVEL PARA ALOCACAO NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tpv categoria" id="647E014E-19EE-425C-5002-324209836D35">
+<Attribute name="TPV CATEGORIA" id="647E014E-19EE-425C-5002-324209836D35">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:34:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CATEGORIA REPRESENTATIVA DO TIPO DE VAGA EXISTENTE NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tpv preco" id="64D59CA7-D7F1-90D6-4CEB-67164B8B14AD">
+<Attribute name="TPV PRECO" id="64D59CA7-D7F1-90D6-4CEB-67164B8B14AD">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:34:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTO FIXO DE ALOCACAO DO TIPO DA VAGA]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>

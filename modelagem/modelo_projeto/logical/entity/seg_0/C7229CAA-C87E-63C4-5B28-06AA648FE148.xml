@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7229CAA-C87E-63C4-5B28-06AA648FE148" name="VEICULOS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="vcl id" id="6A5565B9-BBC0-A8DF-A7B9-00DA25602038">
+<Attribute name="VCL ID" id="6A5565B9-BBC0-A8DF-A7B9-00DA25602038">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:50:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vcl placa" id="994D805A-F8F8-296E-7B09-79023B260258">
+<Attribute name="VCL PLACA" id="994D805A-F8F8-296E-7B09-79023B260258">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:50:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[PLACA DOS VEICULOS UTILIZADOS PELOS CLIENTES MENSALISTAS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vcl tpv id" id="1D3A05D1-C4E3-7C73-BCDB-945EF4D7F316">
+<Attribute name="VCL TPV ID" id="1D3A05D1-C4E3-7C73-BCDB-945EF4D7F316">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:49:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADO PELOS VEICULOS]]></commentInRDBMS>
 <generatorID>EADA5367-F023-400B-218D-652A9FC91915</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
@@ -56,9 +60,10 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vcl mnl id" id="7680B99F-7FA9-EF06-DBBD-7BE00AB6411B">
+<Attribute name="VCL MNL ID" id="7680B99F-7FA9-EF06-DBBD-7BE00AB6411B">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:53:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CLIENTE MENSALISTA DONO DO VEICULO]]></commentInRDBMS>
 <generatorID>EA84ADE8-794B-A65D-39B1-DD2CDA52C300</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>

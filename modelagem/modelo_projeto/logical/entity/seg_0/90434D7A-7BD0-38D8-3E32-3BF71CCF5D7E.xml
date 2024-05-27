@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90434D7A-7BD0-38D8-3E32-3BF71CCF5D7E" name="MENSALISTAS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:40:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS CLIENTES MENSALISTAS UTILIZADORES DO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="mnl id" id="AE3CF514-A1A0-FB90-6A5C-2C3AA88E9E05">
+<Attribute name="MNL ID" id="AE3CF514-A1A0-FB90-6A5C-2C3AA88E9E05">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:51:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mnl nome" id="A9BAC06B-BC71-FCE4-4E64-D1BF22011873">
+<Attribute name="MNL NOME" id="A9BAC06B-BC71-FCE4-4E64-D1BF22011873">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:51:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DOS CLIENTE MENSALISTA DO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mnl cod unico" id="2D961B57-6560-A271-97B0-3BB660D0E848">
+<Attribute name="MNL COD UNICO" id="2D961B57-6560-A271-97B0-3BB660D0E848">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:51:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO UTILIZADO PARA ACESSO EXCLUSIVO AS VAGAS DO CLIENTE MENSALISTA]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -54,9 +58,10 @@
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mnl data inclusao" id="3A1839C0-0ACD-6C2F-3F96-E80651F82048">
+<Attribute name="MNL DATA INCLUSAO" id="3A1839C0-0ACD-6C2F-3F96-E80651F82048">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:52:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE INCLUSAO DE CADASTRO MENSAL DO CLIENTE NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -66,9 +71,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mnl ativo" id="6CB59BC1-99AD-90D2-13A0-35DBCBE354EF">
+<Attribute name="MNL ATIVO" id="6CB59BC1-99AD-90D2-13A0-35DBCBE354EF">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:51:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE ATIVIDADE DE PAGAMENTO MENSAL DO CLIENTE]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>

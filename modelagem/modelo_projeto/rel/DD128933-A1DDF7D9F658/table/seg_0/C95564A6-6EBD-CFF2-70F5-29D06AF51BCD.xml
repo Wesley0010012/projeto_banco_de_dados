@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ces_id" id="3FB63267-5711-7285-422F-9A16EF2D7BC3">
+<Column name="CES_ID" id="3FB63267-5711-7285-422F-9A16EF2D7BC3">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO CUSTO DE ALOCACAO DE UM VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ces_placa" id="F4F62356-CBC6-4839-29CE-6CB03FA43C7B">
+<Column name="CES_PLACA" id="F4F62356-CBC6-4839-29CE-6CB03FA43C7B">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[PLACA DO VEICULO QUE FEZ A ALOCACAO]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ces_data_hora_entrada" id="78E47806-48AB-31F8-124E-265E941FFDEA">
+<Column name="CES_DATA_HORA_ENTRADA" id="78E47806-48AB-31F8-124E-265E941FFDEA">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[DATA E HORA DE ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -47,7 +47,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ces_data_hora_saida" id="33A21B92-856E-9C5C-1B9B-3415CC609757">
+<Column name="CES_DATA_HORA_SAIDA" id="33A21B92-856E-9C5C-1B9B-3415CC609757">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[DATA E HORA DO FIM DA  ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -60,7 +60,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ces_preco" id="D603ED87-065A-C5FA-D10A-C1FF63F8747F">
+<Column name="CES_PRECO" id="D603ED87-065A-C5FA-D10A-C1FF63F8747F">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CUSTO TOTAL DO PERIODO DE ALOCACAO DO VEICULO]]></commentInRDBMS>
@@ -75,7 +75,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ces_tpv_id" id="712F4364-86B1-7DC2-BE45-0D403E579C9E">
+<Column name="CES_TPV_ID" id="712F4364-86B1-7DC2-BE45-0D403E579C9E">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADA PELO VEICULO]]></commentInRDBMS>
@@ -85,7 +85,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

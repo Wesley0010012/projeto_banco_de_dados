@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73800644-5BE2-DE3B-021E-E1496FEF5FE3" name="NOTAS FISCAIS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:17:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR AS NOTAS FISCAIS DE ESTACIONAMENTO CONVENIADOS ENTREGUES POR CLIENTES GERAIS DO ESTACIONAMENTO PARA AMORTIZAR O PAGAMENTO DO CUSTO DE ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ntf id" id="A4EE5811-E9F9-499E-53D4-979AB369D0F3">
+<Attribute name="NTF ID" id="A4EE5811-E9F9-499E-53D4-979AB369D0F3">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:17:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DAS NOTAS FISCAIS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ntf nfe" id="F34EF542-6A80-9A79-8238-549901115341">
+<Attribute name="NTF NFE" id="F34EF542-6A80-9A79-8238-549901115341">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:18:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR DA NOTA FISCAL GERADA NA IMPRESSAO NO ESTABELECIMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>44</dataTypeSize>
 <ownDataTypeParameters>44,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ntf ces id" id="2D0F0147-4E7A-11A9-0FBC-DABF2FF64FB2">
+<Attribute name="NTF CES ID" id="2D0F0147-4E7A-11A9-0FBC-DABF2FF64FB2">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:27:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CUSTO DE ESTACIONAMENTO DO QUAL UTILIZOU DA AMORTIZACAO]]></commentInRDBMS>
 <generatorID>D2C694F6-A962-E3F6-AD14-C319AFE6B22B</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
@@ -56,9 +60,10 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nft desconto total" id="DE5399ED-8A14-E712-3705-924405162037">
+<Attribute name="NTF DESCONTO TOTAL" id="DE5399ED-8A14-E712-3705-924405162037">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:33:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DE AMORTIZACAO PROFERIDA PELA NOTA FISCAL]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -70,9 +75,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ntf cnv id" id="12C370D4-4664-6F5B-10C1-01AB71BB1A5A">
+<Attribute name="NTF CNV ID" id="12C370D4-4664-6F5B-10C1-01AB71BB1A5A">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:04:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO DO ESTABELECIMENTO CONVENIADO QUE IMPRIMIU A NOTA FISCAL]]></commentInRDBMS>
 <generatorID>C4997F67-ED97-B371-CC29-8C7E85E5E238</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>

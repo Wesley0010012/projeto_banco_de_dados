@@ -10,7 +10,7 @@
 <keyObject>14873526-883D-12D0-68D2-66784BEB4661</keyObject>
 <referredKeyID>14873526-883D-12D0-68D2-66784BEB4661</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ces_id</refColNames>
+<refColNames>CES_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="mnl_id" id="DC91DDAA-DEA1-F589-A956-63A48573BD3B">
+<Column name="MNL_ID" id="DC91DDAA-DEA1-F589-A956-63A48573BD3B">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mnl_nome" id="8EDF6CAD-0199-A80B-E46D-BFEF8C59CE18">
+<Column name="MNL_NOME" id="8EDF6CAD-0199-A80B-E46D-BFEF8C59CE18">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[NOME DOS CLIENTE MENSALISTA DO ESTACIONAMENTO]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mnl_cod_unico" id="26162F3E-8720-9520-9C16-A814680EE94F">
+<Column name="MNL_COD_UNICO" id="26162F3E-8720-9520-9C16-A814680EE94F">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO UNICO UTILIZADO PARA ACESSO EXCLUSIVO AS VAGAS DO CLIENTE MENSALISTA]]></commentInRDBMS>
@@ -48,7 +48,7 @@
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mnl_data_inclusao" id="109F0A50-0FEA-7AC4-EDE6-B6E915506B20">
+<Column name="MNL_DATA_INCLUSAO" id="109F0A50-0FEA-7AC4-EDE6-B6E915506B20">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[DATA DE INCLUSAO DE CADASTRO MENSAL DO CLIENTE NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -60,7 +60,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mnl_ativo" id="D072B31B-1A15-7132-5004-B32693757954">
+<Column name="MNL_ATIVO" id="D072B31B-1A15-7132-5004-B32693757954">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[IDENTIFICADOR DE ATIVIDADE DE PAGAMENTO MENSAL DO CLIENTE]]></commentInRDBMS>

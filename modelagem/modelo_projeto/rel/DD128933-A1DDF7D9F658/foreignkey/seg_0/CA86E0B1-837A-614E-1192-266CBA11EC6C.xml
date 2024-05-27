@@ -10,7 +10,7 @@
 <keyObject>9206DA76-3377-C24C-521D-F6FE020594E8</keyObject>
 <referredKeyID>9206DA76-3377-C24C-521D-F6FE020594E8</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>tpv_id</refColNames>
+<refColNames>TPV_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

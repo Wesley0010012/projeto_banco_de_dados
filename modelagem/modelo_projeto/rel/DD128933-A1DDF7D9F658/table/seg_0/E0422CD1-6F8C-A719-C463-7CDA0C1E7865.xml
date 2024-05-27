@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tpv_id" id="52ED6196-EB6D-A548-43F3-64B4F0E527E4">
+<Column name="TPV_ID" id="52ED6196-EB6D-A548-43F3-64B4F0E527E4">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO TIPO DE VAGA POSSIVEL PARA ALOCACAO NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tpv_categoria" id="5A401460-27B5-9C91-EB0F-FA1923FBF063">
+<Column name="TPV_CATEGORIA" id="5A401460-27B5-9C91-EB0F-FA1923FBF063">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CATEGORIA REPRESENTATIVA DO TIPO DE VAGA EXISTENTE NO ESTACIONAMENTO]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tpv_preco" id="04EDF320-FF2F-4D47-FF16-29D1C05BDD68">
+<Column name="TPV_PRECO" id="04EDF320-FF2F-4D47-FF16-29D1C05BDD68">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CUSTO FIXO DE ALOCACAO DO TIPO DA VAGA]]></commentInRDBMS>

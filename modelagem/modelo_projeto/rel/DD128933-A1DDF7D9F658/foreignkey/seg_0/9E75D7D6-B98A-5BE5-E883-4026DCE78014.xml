@@ -10,7 +10,7 @@
 <keyObject>E86F0FBD-9205-83C0-35C1-EA6453C37098</keyObject>
 <referredKeyID>E86F0FBD-9205-83C0-35C1-EA6453C37098</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>mnl_id</refColNames>
+<refColNames>MNL_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

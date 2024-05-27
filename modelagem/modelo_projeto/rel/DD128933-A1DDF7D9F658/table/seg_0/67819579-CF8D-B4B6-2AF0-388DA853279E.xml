@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pgt_id" id="82117D1B-E4AF-518A-1B97-D5A101814AD4">
+<Column name="PGT_ID" id="82117D1B-E4AF-518A-1B97-D5A101814AD4">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:43:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS PAGAMENTOS]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pgt_valor" id="0A47127E-04C2-A723-C51B-F384293FBB88">
+<Column name="PGT_VALOR" id="0A47127E-04C2-A723-C51B-F384293FBB88">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:43:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[VALOR NUMERICO RESPONSAVEL POR DEFINIR O TOTAL A SER PAGO]]></commentInRDBMS>
@@ -36,7 +36,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pgt_mnl_id" id="2F52AF80-2EE5-BD92-DCA3-D73231994A72">
+<Column name="PGT_MNL_ID" id="2F52AF80-2EE5-BD92-DCA3-D73231994A72">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:43:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR EXTERNO REFERENCIADOR DO CLIENTE MENSALISTA DEVEDOR]]></commentInRDBMS>
@@ -46,7 +46,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cnv_id" id="115CCD99-6F34-CDF4-144C-CFB3C9A7932A">
+<Column name="CNV_ID" id="115CCD99-6F34-CDF4-144C-CFB3C9A7932A">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
@@ -23,7 +23,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_CONVENIADOS_CONVENIADOS_ID</notNullConstraintName>
 </Column>
-<Column name="cnv_razao_social" id="670823A9-3286-7258-FAEC-54825EBC5605">
+<Column name="CNV_RAZAO_SOCIAL" id="670823A9-3286-7258-FAEC-54825EBC5605">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[RAZAO SOCIAL DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
@@ -38,7 +38,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_CONVENIADOS_cnv_razao_social</notNullConstraintName>
 </Column>
-<Column name="cnv_cnpj" id="D280C098-386E-78B8-0CF7-5130279E0BED">
+<Column name="CNV_CNPJ" id="D280C098-386E-78B8-0CF7-5130279E0BED">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CNPJ DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>

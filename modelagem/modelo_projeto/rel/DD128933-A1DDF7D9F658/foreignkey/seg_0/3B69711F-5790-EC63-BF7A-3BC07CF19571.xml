@@ -10,7 +10,7 @@
 <keyObject>8EDAC47A-0881-015B-65BD-DEABEDD73EA5</keyObject>
 <referredKeyID>8EDAC47A-0881-015B-65BD-DEABEDD73EA5</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>cnv_id</refColNames>
+<refColNames>CNV_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ntf_id" id="8B105120-C225-3C8B-5A9B-A7B324C90E8F">
+<Column name="NTF_ID" id="8B105120-C225-3C8B-5A9B-A7B324C90E8F">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DAS NOTAS FISCAIS]]></commentInRDBMS>
@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ntf_nfe" id="6ADA3B01-EB60-66F0-79D3-F2CB4639AA26">
+<Column name="NTF_NFE" id="6ADA3B01-EB60-66F0-79D3-F2CB4639AA26">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR DA NOTA FISCAL GERADA NA IMPRESSAO NO ESTABELECIMENTO]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>44,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nft_desconto_total" id="DF30124B-6A34-C41B-CD74-74C1E966C104">
+<Column name="NTF_DESCONTO_TOTAL" id="DF30124B-6A34-C41B-CD74-74C1E966C104">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[VALOR DE AMORTIZACAO PROFERIDA PELA NOTA FISCAL]]></commentInRDBMS>
@@ -49,7 +49,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ntf_ces_id" id="0E2CDD93-0CF6-3BCB-2930-669A9D410E24">
+<Column name="NTF_CES_ID" id="0E2CDD93-0CF6-3BCB-2930-669A9D410E24">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO CUSTO DE ESTACIONAMENTO DO QUAL UTILIZOU DA AMORTIZACAO]]></commentInRDBMS>
@@ -59,14 +59,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="83F16AA8-1D40-DA4C-051A-1A041A1ECC3A" referredColumn="3FB63267-5711-7285-422F-9A16EF2D7BC3"/>
 </associations>
 </Column>
-<Column name="ntf_cnv_id" id="6BD130EE-D188-516D-2E5E-BAD85A5FCA7D">
+<Column name="NTF_CNV_ID" id="6BD130EE-D188-516D-2E5E-BAD85A5FCA7D">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 02:05:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO EXTERNO DO ESTABELECIMENTO CONVENIADO QUE IMPRIMIU A NOTA FISCAL]]></commentInRDBMS>
@@ -76,7 +76,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C13E3EE-F301-38DD-E6F5-00093621F5D8" name="PAGAMENTOS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS PAGAMENTOS EXECUTADOS PELOS CLIENTES MENSALISTAS DO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="pgt id" id="076D6F63-5A5B-A658-8AAD-1946F5DFC613">
+<Attribute name="PGT ID" id="076D6F63-5A5B-A658-8AAD-1946F5DFC613">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:37:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS PAGAMENTOS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pgt valor" id="271A074F-3632-92A6-5D98-CB00B4053BEF">
+<Attribute name="PGT VALOR" id="271A074F-3632-92A6-5D98-CB00B4053BEF">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:37:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR NUMERICO RESPONSAVEL POR DEFINIR O TOTAL A SER PAGO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -42,9 +45,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pgt mnl id" id="D58C9295-6D85-65C7-C9F5-405AC0A0ED8E">
+<Attribute name="PGT MNL ID" id="D58C9295-6D85-65C7-C9F5-405AC0A0ED8E">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-25 22:38:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR EXTERNO REFERENCIADOR DO CLIENTE MENSALISTA DEVEDOR]]></commentInRDBMS>
 <generatorID>8FA3334B-C2D4-6E2A-FED6-5901348D9594</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAEFB6B7-C166-93E2-3E0A-00C223CB4A24" name="CONVENIADOS">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:28:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS ESTABELECIMENTOS CONVENIADOS AO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cnv id" id="A8201EB7-2079-8C8D-1E39-8F3F3FBF35DC">
+<Attribute name="CNV ID" id="A8201EB7-2079-8C8D-1E39-8F3F3FBF35DC">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:28:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cnv razao social" id="046C52B2-5226-0A60-D817-2E533171B3DD">
+<Attribute name="CNV RAZAO SOCIAL" id="046C52B2-5226-0A60-D817-2E533171B3DD">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:28:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[RAZAO SOCIAL DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cnv cnpj" id="FFAB950E-1F2C-2824-EB25-193A5DFBE656">
+<Attribute name="CNV CNPJ" id="FFAB950E-1F2C-2824-EB25-193A5DFBE656">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:28:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[CNPJ DOS ESTABELECIMENTOS CONVENIADOS]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>

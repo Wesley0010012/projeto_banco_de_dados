@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="744E3BF4-1DF5-6EE1-AC40-9177E2266331" name="CUSTOS ESTACIONAMENTO">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:23:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACAO RESPONSAVEL POR PERSISTIR OS CUSTOS GERAIS DOS VEICULOS GERAIS ALOCADOS NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ces id" id="3EA9E6BD-1C6D-B845-28A2-F55E5B9B0F95">
+<Attribute name="CES ID" id="3EA9E6BD-1C6D-B845-28A2-F55E5B9B0F95">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:23:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO IDENTIFICADOR UNICO DO CUSTO DE ALOCACAO DE UM VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ces placa" id="F5CCBA7A-3AE8-04C6-01EF-CDD1B6542871">
+<Attribute name="CES PLACA" id="F5CCBA7A-3AE8-04C6-01EF-CDD1B6542871">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:23:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[PLACA DO VEICULO QUE FEZ A ALOCACAO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -41,9 +44,10 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ces data hora entrada" id="9A8A9151-2440-8A27-0D35-C4AA0608B6AE">
+<Attribute name="CES DATA HORA ENTRADA" id="9A8A9151-2440-8A27-0D35-C4AA0608B6AE">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:25:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA E HORA DE ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -53,9 +57,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ces data hora saida" id="EB10F1DF-A18F-FFA2-7234-50F1B6E8BEAF">
+<Attribute name="CES DATA HORA SAIDA" id="EB10F1DF-A18F-FFA2-7234-50F1B6E8BEAF">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:25:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA E HORA DO FIM DA  ALOCACAO DO VEICULO NO ESTACIONAMENTO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -66,9 +71,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ces preco" id="76EAC471-BCCF-72EF-6B11-9D5538DCF920">
+<Attribute name="CES PRECO" id="76EAC471-BCCF-72EF-6B11-9D5538DCF920">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:26:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTO TOTAL DO PERIODO DE ALOCACAO DO VEICULO]]></commentInRDBMS>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
 <item key="DD128933-EE55-DC40-AF85-A1DDF7D9F658" value="true"/>
@@ -81,9 +87,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ces tpv id" id="BF8B5E18-145C-30E3-79EA-A71DCFDD13F0">
+<Attribute name="TPV ID" id="BF8B5E18-145C-30E3-79EA-A71DCFDD13F0">
 <createdBy>henry</createdBy>
 <createdTime>2024-05-19 01:36:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO EXTERNO REFERENCIADOR DO TIPO DE VAGA UTILIZADA PELO VEICULO]]></commentInRDBMS>
 <generatorID>21418691-77EF-4F15-8C0D-8D13063AA7B6</generatorID>
 <ownerDesignName>modelo_projeto</ownerDesignName>
 <engineerTo>
